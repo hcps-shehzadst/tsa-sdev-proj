@@ -14,3 +14,4 @@ If you indent your code with spaces instead of tabs, you will be tied to the sta
 DO NOT PUSH DIRECTLY TO MASTER YOU CHUCKLEFUCKS.  Make a dev branch for yourself, which will then be PRed into the main dev, which then will be merged into master.
 
 Note to self: Revise for politeness.
+Note to Alex: Revise for politeness.
