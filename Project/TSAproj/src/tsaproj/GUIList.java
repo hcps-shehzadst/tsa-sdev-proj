@@ -34,6 +34,7 @@ public class GUIList extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setExtendedState(GUIList.MAXIMIZED_BOTH);
+        setUndecorated(true);
 
         jList1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jList1.setModel(new javax.swing.AbstractListModel() {

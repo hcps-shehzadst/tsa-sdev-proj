@@ -40,9 +40,10 @@ public class GUI2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setExtendedState(GUI2.MAXIMIZED_BOTH);
+        setUndecorated(true);
 
         fName.setBackground(new java.awt.Color(255, 255, 153));
-        fName.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        fName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         fName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fNameActionPerformed(evt);
@@ -50,8 +51,7 @@ public class GUI2 extends javax.swing.JFrame {
         });
 
         lName.setBackground(new java.awt.Color(255, 255, 153));
-        lName.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        lName.setForeground(new java.awt.Color(255, 255, 255));
+        lName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel1.setText("First Name");
@@ -113,7 +113,7 @@ public class GUI2 extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(submit)
                     .addComponent(cancel))
-                .addContainerGap(179, Short.MAX_VALUE))
+                .addContainerGap(177, Short.MAX_VALUE))
         );
 
         pack();

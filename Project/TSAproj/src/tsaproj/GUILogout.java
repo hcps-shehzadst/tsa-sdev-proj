@@ -35,6 +35,7 @@ public class GUILogout extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setExtendedState(GUILogout.MAXIMIZED_BOTH);
+        setUndecorated(true);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bgPic/ensure.PNG"))); // NOI18N
 
